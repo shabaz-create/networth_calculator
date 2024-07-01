@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Networth Calculator</title>
+    <meta name="author" content="Shabaz Khan">
+    <link type="text/css" rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>Networth Calculator</h1>
+    <div class="container">
+        <div class="assets">
+            <h2>Assets</h2>
+            <div class="item">
+                <label for="name">mortage:</label>
+                <input class="input"id="name">
+            </div>
+            <button>Add</button>
+        </div>
+        <div class="liabilities">
+            <h2>Liabitilities</h2>
+            <div class="item">
+                <label for="name">mortage:</label>
+                <input class="input"id="name">
+            </div>
+            <button>Add</button>
+        </div>
+    </div>
+    <div>
+        <span>Networth Is</span>
+        <span><button>Reset</button></span>
+    </div>
+    <div class="popup hidden">
+        <form>
+            <label for="name">Name</label>
+            <input id="name" type="text" placeholder="Enter name of asset">
+
+            <label for="value">Value</label>
+            <input id="value" type="number" placeholder="Enter value of the field">
+
+            
+        </form>
+    </div>
+</body>
+<script type="module" src="./index.js"></script>
+</html>

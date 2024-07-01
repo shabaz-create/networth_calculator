@@ -1,0 +1,48 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container{
+    height:500px;
+    width:500px;
+    display: flex;
+}
+.assets{
+    width:50%;
+}
+.liabilities{
+    width:50%;
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+}
+
+.input{
+    border:none;
+    border-bottom: 1px solid black;
+    width: 70%
+}
+
+.input:focus{
+    outline: none;
+}
+
+
+/*Pop Up*/
+.popup{
+    height: 250px;
+    width:250px;
+    background-color: red;
+    position: absolute;
+    border-radius: 25px;
+    padding: 25px;
+}
+
+/* .hidden{
+    display: none;
+} */
